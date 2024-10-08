@@ -15,6 +15,7 @@ header{
 }
 header:hover{
     background-color: white;
+    border-bottom: 1px solid black;
 }
 .about a{
     text-decoration: none;
@@ -30,6 +31,7 @@ select{
     padding: 10px;
     font-size: 15px;
     font-weight: 500;
+    margin-right: 30px;
 }
 .link a{
     color: black;
@@ -91,7 +93,7 @@ button{
     font-size: 30px;
     margin-left: 30px;
    padding: 10px 10px 10px 14px ;
-    
+    cursor: pointer;
     border: 2px solid black;
     border-radius: 70px;
 
