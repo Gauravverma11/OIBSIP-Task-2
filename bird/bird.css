@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -19,15 +21,15 @@ header:hover{
 }
 .about a{
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: black;
+    font-family: "Lilita One", sans-serif;
+    font-size: 40px;
     font-weight: 600;
 }
 
 select{
     border: 1px solid black;
     background: transparent;
-    color: black;
     padding: 10px;
     font-size: 15px;
     font-weight: 500;
@@ -35,7 +37,7 @@ select{
 }
 .link a{
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     text-decoration: none;
 }
@@ -45,6 +47,7 @@ select{
     background-image: url(bird\ banner.jpg);
     width: 100%;
     height: 100vh;
+    font-family: "Bebas Neue", sans-serif;
     margin-top: -70px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,6 +108,7 @@ button{
 .pad{
     background-image: url(chidiya.jpg);
     height: 100%;
+    font-family: "Bebas Neue", sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -113,7 +117,7 @@ button{
 }
 .above{
     height: 50%;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
     padding-top: 20px;
     padding-left: 40px;
@@ -124,24 +128,18 @@ button{
     padding-left: 40px;
 }
 
-.below a{
-    border: 1px solid black;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
 .empty{
   height: 80vh;
   display: flex;
   align-items: center;
   border: 2px solid black;
+  font-family: "Bebas Neue", sans-serif;
 }
 .empty .son{
-    background-color: aquamarine;
     text-align: center;
     width: 100%;
     font-size: 15px;
+    padding-bottom: 20px;
 }
 .son h1{
     font-size: 3em;
@@ -158,17 +156,21 @@ button{
     padding: 30px 0px 10px 0px;
 }
 .first{
-    background-color: palegoldenrod;
+    background-color: rgb(116, 123, 92);
     display: flex;
     flex-direction: column;
     width: 25%;
     text-align: center;
 }
+.first h3{
+    font-size: 18px;
+    font-weight: bold;
+}
 .first a{
     padding-bottom: 15px;
     font-size: 15px;
     text-decoration: none;
-    color: #696b79;
+    color: #ffffff;
 }
 .copyright{
     text-align: center;
