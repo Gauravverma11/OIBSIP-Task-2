@@ -211,6 +211,8 @@ button{
     button{
         font-size: 8px;
     }
+    .section{
+        height: 70%};
     
     
     
@@ -225,6 +227,8 @@ button{
     button{
         font-size: 10px;
     }
+    .section{
+        height: 70%};
     
     
     
@@ -239,6 +243,8 @@ button{
     button{
         font-size: 9px;
     }
+    .section{
+        height: 70%};
    
     
 }
